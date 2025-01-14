@@ -2,9 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { Heart, Brain, Shield } from 'lucide-react';
-import couple1 from '../assets/images/couple1.jpg';
-import couple2 from '../assets/images/couple2.jpg';
-import couple3 from '../assets/images/couple3.jpg';
 
 const HeroSection: React.FC = () => {
   const navigate = useNavigate();
@@ -108,7 +105,7 @@ const HeroSection: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             whileHover={{ scale: 1.05 }}
           >
-            <img src={couple1} alt="Happy Couple 1" className="w-full h-full object-cover" />
+            <img src="/couple1.jpg" alt="Happy Couple 1" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-pink-500/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
           </motion.div>
 
@@ -119,7 +116,7 @@ const HeroSection: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             whileHover={{ scale: 1.05 }}
           >
-            <img src={couple2} alt="Happy Couple 2" className="w-full h-full object-cover" />
+            <img src="/couple2.jpg" alt="Happy Couple 2" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-pink-500/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
           </motion.div>
 
@@ -130,7 +127,7 @@ const HeroSection: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.7 }}
             whileHover={{ scale: 1.05 }}
           >
-            <img src={couple3} alt="Happy Couple 3" className="w-full h-full object-cover" />
+            <img src="/couple3.jpg" alt="Happy Couple 3" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-pink-500/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
           </motion.div>
 
